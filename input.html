@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>input validation</title>
+	<link rel="stylesheet" href="input css/input.css"/>
+</head>
+<body>
+	<h1 class="head-text">Xcellent Nexus</h1>
+	<form action="">   
+		<section class="form-input login-js">
+			<div class="input-div-card">
+				<div class="user-name-div">
+					<input type="text" placeholder="Username" class="user-name-html user-name-js" required minlength="8">
+				</div>
+				<br>
+				
+				<div class="user-password-div">
+					<input type="password" name="user-password" id="user-password" class="user-password-html" placeholder="Enter password" required minlength="8">
+				</div>
+				<br>
+				<br>
+				<div class="submit-btn-div">
+					<input type="submit" value="submit" class="submit-btn-html">
+				</div>
+				<div class="login">
+					<small>don't have an account? 
+					<a href="#" class="sign-up-text" onclick="userSignUp()">sign up</a>
+				</small>
+				</div>
+			</div>
+		</section>
+	</form>
+	<form action="#" method="post">
+		<section class="form-input-signup signup-js">
+			<div class="input-div-card">
+				<div class="user-name-div">
+					<input type="text" placeholder="Username" class="user-name-html user-name-js" name="user-name" id="user-name" required minlength="8">
+				</div>
+				<br>
+				
+				<div class="user-email-div">
+					<input type="email" name="user-email" id="user-email" class="user-email-html" placeholder="Enter email" required>
+				</div>
+					<br>
+					
+				<div class="user-password-div">
+					<input type="password" name="password" id="password" placeholder="password" class="user-password-html password-js" required minlength="8">
+				</div>
+				<br>
+				<div class="user-password-div">
+					<input type="password" name="confirm-password" id="confirm-password" placeholder="confirm password" class="user-password-html confirm-password-js" minlength="8">
+				</div>
+				<br>
+				<br>
+				<div class="submit-btn-div">
+					<input type="submit" value="submit" class="submit-btn-html submit-btn-js" onclick="validatePasswords() ">
+				</div>
+				<div class="login">
+					<small>Already have an account? 
+					<a href="#" class="sign-up" onclick="userLogin()">login</a>
+				</small>
+				</div>
+			</div>
+		</section>
+
+	</form>
+
+	<script src="input js/input.js"></script>
+</body>
+</html>			
