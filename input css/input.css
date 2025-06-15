@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6{
 	outline: none;
 	border: none;
 	background-color: rgba(253, 183, 6, 0.164);
-margin-bottom: 2px;
+margin-bottom: 7px;
 }
 
 .user-name-html:focus, .user-email-html:focus,.user-password-html:focus{
