@@ -57,11 +57,12 @@ h1,h2,h3,h4,h5,h6{
 .user-name-html, .user-email-html, .submit-btn-html, .user-password-html{
 
 	padding: 8px;
-	width: 80%;
+	width: 95%;
 	border-radius: 4px;
 	outline: none;
 	border: none;
 	background-color: rgba(253, 183, 6, 0.164);
+margin-bottom: 10px;
 }
 
 .user-name-html:focus, .user-email-html:focus,.user-password-html:focus{
@@ -101,4 +102,15 @@ small{
 
 .form-input-signup{
 	display: none;
+}
+
+@media(min-width: 768px) {
+
+
+  .user-name-html, .user-email-html, .submit-btn-html, .user-password-html{
+
+width: 80%;
+
+}
+
 }
